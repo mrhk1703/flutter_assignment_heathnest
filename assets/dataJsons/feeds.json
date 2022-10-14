@@ -1,0 +1,216 @@
+[
+    {
+        "userId":"2",
+        "feedDateTime":"11 Oct 2022 | 10:50 AM",
+        "feedType":"Diet",
+        "subTitle":"asked a question",
+        "feedSubtType":"question",
+        "question":{
+            "question":"What are the signs and symptoms of skin cancer?",
+            "message":"I have been facing a few possible symptoms of skin cancer. I have googled the possibilities but i thought i would ask the community instently. Please suggest me the best step i have to take forward.",
+            "likes":["1","2","3","4","5","6"],
+            "comments":[{
+                "userId":"6",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":null,
+                "upVotes":["3","4","1"],
+                "downVotes":["5"],
+                "replies":[]
+            },
+            {
+                "userId":"5",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":"image.png",
+                "upVotes":["3","4","1","7"],
+                "downVotes":["6"],
+                "replies":[]
+            }],
+            "location":"Peninsula Park, Adheri, Mumbai"
+        },
+        "poll":null,
+        "simplePost":null,
+        "event":null
+
+    },
+    {
+        "userId":"3",
+        "feedDateTime":"11 Oct 2022 | 10:50 AM",
+        "feedType":"Diet",
+        "subTitle":null,
+        "feedSubtType":"simplePost",
+        "question":null,
+        "poll":null,
+        "simplePost":{
+            "image":null,
+            "hashTags":[],
+            "description":"My husband has 3 days transplant assessment in Newcastle next month, strange mix of emotions. For those that have been through this how long did it take following assessment was it untilyou were treated for the particular you have been facing.",
+            "likes":["1","2","3","4","5","6"],
+            "comments":[{
+                "userId":"6",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":null,
+                "upVotes":["3","4","1"],
+                "downVotes":["5"],
+                "replies":[]
+            },
+            {
+                "userId":"5",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":"image.png",
+                "upVotes":["3","4","1","2"],
+                "downVotes":["6"],
+                "replies":[]
+            }],
+            "location":"Peninsula Park, Adheri, Mumbai"
+        },
+        "event":null
+
+    },
+    {
+        "userId":"4",
+        "feedDateTime":"11 Oct 2022 | 10:50 AM",
+        "feedType":"News",
+        "subTitle":"created an event",
+        "feedSubtType":"event",
+        "question":null,
+        "poll":null,
+        "simplePost":null,
+        "event":{
+            "title":"Cancer Meet At Rajiv Gandhi National Park",
+            "dateTime": "Tue, APR 32, 2022 | 7 PM IST",
+            "likes":["1","2","3","4","5","6"],
+            "interestedGoing":["1","2","3","4","5","6"],
+            "comments":[{
+                "userId":"6",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":null,
+                "upVotes":["3","4","1"],
+                "downVotes":["5"],
+                "replies":[]
+            },
+            {
+                "userId":"5",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":"image.png",
+                "upVotes":["3","4","1","2"],
+                "downVotes":["6"],
+                "replies":[]
+            }],
+            "location":"Rajiv Gandhi National Park, Mumbai"
+        }
+
+    },
+    {
+        "userId":"5",
+        "feedDateTime":"11 Oct 2022 | 10:50 AM",
+        "feedType":"LifeStyle",
+        "subTitle":null,
+        "feedSubtType":"simplePost",
+        "question":null,
+        "poll":null,
+        "simplePost":{
+            "image":"image-full.png",
+            "hashTags":["itsokayto", "cancersurvivor"],
+            "description":"Something to motivate you",
+            "likes":["1","2","3","4","5","6"],
+            "comments":[{
+                "userId":"6",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":null,
+                "upVotes":["3","4","1"],
+                "downVotes":["5"],
+                "replies":[]
+            },
+            {
+                "userId":"5",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":"image.png",
+                "upVotes":["3","4","1","2"],
+                "downVotes":["6"],
+                "replies":[]
+            }],
+            "location":"Peninsula Park, Adheri, Mumbai"
+        },
+        "event":null
+
+    },
+    {
+        "userId":"4",
+        "feedDateTime":"11 Oct 2022 | 10:50 AM",
+        "feedType":"Diet",
+        "subTitle":"created a poll",
+        "feedSubtType":"poll",
+        "question":null,
+        "poll":{
+            "question":"What the best Hospital in India for cancer",
+            "options":[
+                {
+                    "optionName":"Apolo Hospital, Banglore",
+                    "voting":["1","2","3"]
+                },
+                {
+                    "optionName":"AIMIMS, Delhi",
+                    "voting":["4","5"]
+                },{
+                    "optionName":"Kokilaben Dhirubhai Ambani Hospital, Mumbai",
+                    "voting":["6"]
+                }
+            ],
+            "isPollOpen":false,
+            "likes":["1","2","3","4","5","6"],
+            "comments":[{
+                "userId":"6",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":null,
+                "upVotes":["3","4","1"],
+                "downVotes":["5"],
+                "replies":[]
+            },
+            {
+                "userId":"5",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":"image.png",
+                "upVotes":["3","4","1","2"],
+                "downVotes":["6"],
+                "replies":[]
+            }],
+            "location":null
+        },
+        "simplePost":null,
+        "event":null
+
+    },
+
+    {
+        "userId":"6",
+        "feedDateTime":"11 Oct 2022 | 10:50 AM",
+        "feedType":"Diet",
+        "subTitle":"asked a question",
+        "feedSubtType":"question",
+        "question":{
+            "question":null,
+            "message":"My husband has 3 days transplant assessment in Newcastle next month, strange mix of emotions. For those that have been through this how long did it take following assessment was it untilyou were treated for the particular you have been facing.",
+            "likes":["1","2","3","4","5","6"],
+            "comments":[{
+                "userId":"6",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":null,
+                "upVotes":["3","4","1"],
+                "downVotes":["5"],
+                "replies":[]
+            },
+            {
+                "userId":"5",
+                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+                "image":"image.png",
+                "upVotes":["3","4","1","7"],
+                "downVotes":["6"],
+                "replies":[]
+            }],
+            "location":"Peninsula Park, Adheri, Mumbai"
+        },
+        "poll":null,
+        "simplePost":null
+
+    }
+]

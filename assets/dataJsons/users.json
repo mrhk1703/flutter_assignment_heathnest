@@ -1,0 +1,57 @@
+[{
+    "userId":"1",
+    "userName":"harshal",
+    "profileImage":"user.png",
+    "userType":"DIAGNOSED RECENTLY",
+    "mobileNumber":"9999999999"
+
+},
+{
+    "userId":"2",
+    "userName":"rohit.shetty12",
+    "profileImage":"ImageMask.png",
+    "userType":"DIAGNOSED RECENTLY",
+    "mobileNumber":"8888888888"
+
+},
+{
+    "userId":"3",
+    "userName":"priya321",
+    "profileImage":"ImageMask.png",
+    "userType":"DIAGNOSED RECENTLY",
+    "mobileNumber":"7777777777"
+
+},
+{
+    "userId":"4",
+    "userName":"username1275",
+    "profileImage":"01.png",
+    "userType":"DIAGNOSED RECENTLY",
+    "mobileNumber":"6666666666"
+
+},
+{
+    "userId":"5",
+    "userName":"user987",
+    "profileImage":"01.png",
+    "userType":"Expert",
+    "mobileNumber":"5555555555"
+
+},
+{
+    "userId":"6",
+    "userName":null,
+    "profileImage":"01.png",
+    "userType":"DIAGNOSED RECENTLY",
+    "mobileNumber":"4444444444"
+
+},
+{
+    "userId":"7",
+    "userName":"username1276",
+    "profileImage":"01.png",
+    "userType":"INFLUENCER",
+    "mobileNumber":"3333333333"
+
+}
+]
