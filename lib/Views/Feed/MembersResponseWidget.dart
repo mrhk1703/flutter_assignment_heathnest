@@ -23,17 +23,17 @@ class MemberResponseWidget extends StatelessWidget {
     String responseIcon = "Like.png";
     switch (feed.feedSubtType) {
       case "poll":
-        if (feed.poll.likes.contains(UserDetails.userId)) {
+        if (feed.likes.contains(UserDetails.userId)) {
           response = "You and " +
-              feed.poll.likes.length.toString() +
+              feed.likes.length.toString() +
               " others liked this poll";
         } else {
           response =
-              feed.poll.likes.length.toString() + " members liked this poll";
+              feed.likes.length.toString() + " members liked this poll";
         }
-        likCount = feed.poll.likes.length;
+        likCount = feed.likes.length;
 
-        commentsCounts = feed.poll.comments.length;
+        commentsCounts = feed.comments.length;
         if (feed.isLiked) {
           responseIcon = "375-thumbs-up-1.png";
         } else {
@@ -41,16 +41,16 @@ class MemberResponseWidget extends StatelessWidget {
         }
         break;
       case "question":
-        if (feed.question.likes.contains(UserDetails.userId)) {
+        if (feed.likes.contains(UserDetails.userId)) {
           response = "You and " +
-              feed.question.likes.length.toString() +
+              feed.likes.length.toString() +
               " others have this questiion";
         } else {
-          response = feed.question.likes.length.toString() +
+          response = feed.likes.length.toString() +
               " members have this questiion";
         }
-        likCount = feed.question.likes.length;
-        commentsCounts = feed.question.comments.length;
+        likCount = feed.likes.length;
+        commentsCounts = feed.comments.length;
         if (feed.isLiked) {
           responseIcon = "234-man-raising-hand-1.png";
         } else {
@@ -58,16 +58,16 @@ class MemberResponseWidget extends StatelessWidget {
         }
         break;
       case "event":
-        if (feed.event.likes.contains(UserDetails.userId)) {
+        if (feed.likes.contains(UserDetails.userId)) {
           response = "You and " +
-              feed.event.likes.length.toString() +
+              feed.likes.length.toString() +
               " others likes this event";
         } else {
           response =
-              feed.event.likes.length.toString() + " members likes this event";
+              feed.likes.length.toString() + " members likes this event";
         }
-        likCount = feed.event.likes.length;
-        commentsCounts = feed.event.comments.length;
+        likCount = feed.likes.length;
+        commentsCounts = feed.comments.length;
         if (feed.isLiked) {
           responseIcon = "375-thumbs-up-1.png";
         } else {
@@ -75,16 +75,16 @@ class MemberResponseWidget extends StatelessWidget {
         }
         break;
       case "simplePost":
-        if (feed.simplePost.likes.contains(UserDetails.userId)) {
+        if (feed.likes.contains(UserDetails.userId)) {
           response = "You and " +
-              feed.simplePost.likes.length.toString() +
+              feed.likes.length.toString() +
               " others reacted to this post";
         } else {
-          response = feed.simplePost.likes.length.toString() +
+          response = feed.likes.length.toString() +
               " members reacted to this post";
         }
-        likCount = feed.simplePost.likes.length;
-        commentsCounts = feed.simplePost.comments.length;
+        likCount = feed.likes.length;
+        commentsCounts = feed.comments.length;
         if (feed.isLiked) {
           responseIcon = "375-thumbs-up-1.png";
         } else {

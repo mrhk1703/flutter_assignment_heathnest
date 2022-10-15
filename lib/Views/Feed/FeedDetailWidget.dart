@@ -30,23 +30,7 @@ class FeedDetailWidgetState extends State<FeedDetailWidget> {
   @override
   Widget build(BuildContext context) {
     List<Widget> lstCommentWidget = [];
-    List<Comments> lstComents = [];
-    switch (widget.feed.feedSubtType) {
-      case "poll":
-        lstComents.addAll(widget.feed.poll.comments);
-        break;
-      case "question":
-        lstComents.addAll(widget.feed.question.comments);
-        break;
-      case "event":
-        lstComents.addAll(widget.feed.event.comments);
-        break;
-      case "simplePost":
-        lstComents.addAll(widget.feed.simplePost.comments);
-        break;
-      default:
-    }
-    lstComents.forEach((element) {
+    widget.feed.comments.forEach((element) {
       lstCommentWidget.add(CommentWidget(feed: widget.feed, comments: element));
     });
     return Scaffold(

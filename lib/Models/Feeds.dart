@@ -2,6 +2,8 @@ import 'package:flutter_assignment/Models/Events.dart';
 import 'package:flutter_assignment/Models/Polls.dart';
 import 'package:flutter_assignment/Models/Question.dart';
 import 'package:flutter_assignment/Models/SimplePost.dart';
+import 'package:flutter_assignment/Models/Comments.dart';
+
 import 'package:flutter_assignment/Models/UserDetails.dart';
 
 class Feeds {
@@ -10,6 +12,8 @@ class Feeds {
   String feedType;
   String subTitle;
   String feedSubtType;
+  List<String> likes;
+  List<Comments> comments;
   Question question;
   Poll poll;
   SimplePost simplePost;
@@ -25,6 +29,8 @@ class Feeds {
       this.feedDateTime,
       this.feedType,
       this.subTitle,
+      this.likes,
+      this.comments,
       this.feedSubtType,
       this.question,
       this.poll,
@@ -37,7 +43,13 @@ class Feeds {
     feedType = json['feedType'];
     subTitle = json['subTitle'];
     feedSubtType = json['feedSubtType'];
-
+likes = json['likes'].cast<String>();
+    if (json['comments'] != null) {
+      comments = <Comments>[];
+      json['comments'].forEach((v) {
+        comments.add(new Comments.fromJson(v));
+      });
+    }
     question = json['question'] != null
         ? new Question.fromJson(json['question'])
         : null;
@@ -47,22 +59,9 @@ class Feeds {
         : null;
     event = json['event'] != null ? new Event.fromJson(json['event']) : null;
 
-    isLiked = false;
-    switch (feedSubtType) {
-      case "poll":
-        isLiked = poll.likes.contains(UserDetails.userId);
-        break;
-      case "question":
-        isLiked = question.likes.contains(UserDetails.userId);
-
-        break;
-      case "event":
-        isLiked = event.likes.contains(UserDetails.userId);
-        break;
-      case "simplePost":
-        isLiked = simplePost.likes.contains(UserDetails.userId);
-        break;
-      default:
-    }
+   
+    
+        isLiked = likes.contains(UserDetails.userId);
+       
   }
 }

@@ -8,7 +8,10 @@
         "question":{
             "question":"What are the signs and symptoms of skin cancer?",
             "message":"I have been facing a few possible symptoms of skin cancer. I have googled the possibilities but i thought i would ask the community instently. Please suggest me the best step i have to take forward.",
-            "likes":["1","2","3","4","5","6"],
+            
+            "location":"Peninsula Park, Adheri, Mumbai"
+        },
+        "likes":["2","3","4","5","6"],
             "comments":[{
                 "userId":"6",
                 "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
@@ -25,8 +28,6 @@
                 "downVotes":["6"],
                 "replies":[]
             }],
-            "location":"Peninsula Park, Adheri, Mumbai"
-        },
         "poll":null,
         "simplePost":null,
         "event":null
@@ -44,12 +45,15 @@
             "image":null,
             "hashTags":[],
             "description":"My husband has 3 days transplant assessment in Newcastle next month, strange mix of emotions. For those that have been through this how long did it take following assessment was it untilyou were treated for the particular you have been facing.",
-            "likes":["1","2","3","4","5","6"],
+            
+            "location":"Peninsula Park, Adheri, Mumbai"
+        },
+        "likes":["2","3","4","5","6"],
             "comments":[{
                 "userId":"6",
                 "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
                 "image":null,
-                "upVotes":["3","4","1"],
+                "upVotes":["3","4","2"],
                 "downVotes":["5"],
                 "replies":[]
             },
@@ -57,12 +61,10 @@
                 "userId":"5",
                 "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
                 "image":"image.png",
-                "upVotes":["3","4","1","2"],
+                "upVotes":["3","4","2"],
                 "downVotes":["6"],
                 "replies":[]
             }],
-            "location":"Peninsula Park, Adheri, Mumbai"
-        },
         "event":null
 
     },
@@ -78,27 +80,27 @@
         "event":{
             "title":"Cancer Meet At Rajiv Gandhi National Park",
             "dateTime": "Tue, APR 32, 2022 | 7 PM IST",
-            "likes":["1","2","3","4","5","6"],
             "interestedGoing":["1","2","3","4","5","6"],
-            "comments":[{
-                "userId":"6",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":null,
-                "upVotes":["3","4","1"],
-                "downVotes":["5"],
-                "replies":[]
-            },
-            {
-                "userId":"5",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":"image.png",
-                "upVotes":["3","4","1","2"],
-                "downVotes":["6"],
-                "replies":[]
-            }],
+           
             "location":"Rajiv Gandhi National Park, Mumbai"
-        }
-
+        },
+        "likes":["1","2","3","4","5","6"],
+        "comments":[{
+            "userId":"6",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":null,
+            "upVotes":["3","4","1"],
+            "downVotes":["5"],
+            "replies":[]
+        },
+        {
+            "userId":"5",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":"image.png",
+            "upVotes":["3","4","1","2"],
+            "downVotes":["6"],
+            "replies":[]
+        }]
     },
     {
         "userId":"5",
@@ -112,25 +114,25 @@
             "image":"image-full.png",
             "hashTags":["itsokayto", "cancersurvivor"],
             "description":"Something to motivate you",
-            "likes":["1","2","3","4","5","6"],
-            "comments":[{
-                "userId":"6",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":null,
-                "upVotes":["3","4","1"],
-                "downVotes":["5"],
-                "replies":[]
-            },
-            {
-                "userId":"5",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":"image.png",
-                "upVotes":["3","4","1","2"],
-                "downVotes":["6"],
-                "replies":[]
-            }],
+            
             "location":"Peninsula Park, Adheri, Mumbai"
+        },"likes":["2","3","4","5","6"],
+        "comments":[{
+            "userId":"6",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":null,
+            "upVotes":["3","4","1"],
+            "downVotes":["5"],
+            "replies":[]
         },
+        {
+            "userId":"5",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":"image.png",
+            "upVotes":["3","4","1","2"],
+            "downVotes":["6"],
+            "replies":[]
+        }],
         "event":null
 
     },
@@ -157,25 +159,25 @@
                 }
             ],
             "isPollOpen":false,
-            "likes":["1","2","3","4","5","6"],
-            "comments":[{
-                "userId":"6",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":null,
-                "upVotes":["3","4","1"],
-                "downVotes":["5"],
-                "replies":[]
-            },
-            {
-                "userId":"5",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":"image.png",
-                "upVotes":["3","4","1","2"],
-                "downVotes":["6"],
-                "replies":[]
-            }],
+            
             "location":null
+        },"likes":["2","3","4","5","6"],
+        "comments":[{
+            "userId":"6",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":null,
+            "upVotes":["3","4","1"],
+            "downVotes":["5"],
+            "replies":[]
         },
+        {
+            "userId":"5",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":"image.png",
+            "upVotes":["3","4","1","2"],
+            "downVotes":["6"],
+            "replies":[]
+        }],
         "simplePost":null,
         "event":null
 
@@ -190,25 +192,25 @@
         "question":{
             "question":null,
             "message":"My husband has 3 days transplant assessment in Newcastle next month, strange mix of emotions. For those that have been through this how long did it take following assessment was it untilyou were treated for the particular you have been facing.",
-            "likes":["1","2","3","4","5","6"],
-            "comments":[{
-                "userId":"6",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":null,
-                "upVotes":["3","4","1"],
-                "downVotes":["5"],
-                "replies":[]
-            },
-            {
-                "userId":"5",
-                "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
-                "image":"image.png",
-                "upVotes":["3","4","1","7"],
-                "downVotes":["6"],
-                "replies":[]
-            }],
+            
             "location":"Peninsula Park, Adheri, Mumbai"
+        },"likes":["2","3","4","5","6"],
+        "comments":[{
+            "userId":"6",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":null,
+            "upVotes":["3","4","1"],
+            "downVotes":["5"],
+            "replies":[]
         },
+        {
+            "userId":"5",
+            "comment":"Not sure about rights. Looks like itsa matter of concern that our schools don't take it seriously such matters and treat it so lightly like a fault of the student.",
+            "image":"image.png",
+            "upVotes":["3","4","1","7"],
+            "downVotes":["6"],
+            "replies":[]
+        }],
         "poll":null,
         "simplePost":null
 
